@@ -1,7 +1,7 @@
 chmod 777 Project.cs
 mcs -out:Project.exe Project.cs
 
-file=/projects/ce/Project.exe
+file=Project.exe
 
 if [[ -f "$file" ]];
 	then
