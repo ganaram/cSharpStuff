@@ -31,7 +31,7 @@ using System;
         public static void llamar(Telefono tlf1, Telefono tlf2){
          
             if(tlf1.numero!=tlf2.numero && tlf1.tieneLinea && tlf2.tieneLinea && estaEncendido(tlf1) && estaEncendido(tlf2)){
-                Console.WriteLine("El teléfono con número: " + tlf1.numero + " al teléfono con número: " + tlf2.numero);
+                Console.WriteLine("El teléfono con número: " + tlf1.numero + " ha llamado al teléfono con número: " + tlf2.numero);
             }else Console.WriteLine("Alguno de los dispositivos está sin linea o apagado");
 
         }
