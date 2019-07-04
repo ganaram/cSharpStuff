@@ -1,6 +1,6 @@
 using System;
 
-    public class Program{
+    public class Telefoniyos{
 
         public static void Main(){
 
